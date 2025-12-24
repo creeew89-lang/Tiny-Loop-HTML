@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+#speed {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+}
+#toggle {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    z-index: 10;
+}
+#ball {
+    width: 50px;
+    height: 50px;
+    background: red;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    border-radius: 50%;
+}
